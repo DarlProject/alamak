@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="tampil" id="tampil">
+		<div class="tampil-body">
+			<div>
+				<h1>Welcome hehe</h1>
+				<p>manusia  itu manusia</p>
+				<button onclick=" putarmusic()">P L A Y</button>
+			</div>
+		</div>
+	</div>
+        <h1 class="pala1">woilaaa ciiiiiiiiiikkkkkkkkkk 😅😅😅</h1>
+    <div class="gambar">    
+        <img src="download (4).jpeg">
+    </div>    
+    <script>
+		var a = document.getElementById('tampil');
+		function putarmusic(){
+			a.style.display = "none";
+			var audio = new Audio('musiknya.mp3');
+            audio.loop = true;
+			audio.play();
+		}
+	</script>
+</body>
+</html>
